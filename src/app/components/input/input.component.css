@@ -1,0 +1,9 @@
+.w-full {
+  width: 100%;
+}
+
+button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}

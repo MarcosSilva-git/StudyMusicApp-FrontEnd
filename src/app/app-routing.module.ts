@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CadastrarMusicaComponent } from './pages/cadastrar-musica/cadastrar-musica.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: '', component: CadastrarMusicaComponent
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
